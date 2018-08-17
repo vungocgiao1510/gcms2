@@ -1,0 +1,394 @@
+body{
+    background-color:#f4f4f4;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+@media (min-width: 576px) {
+    .jumbotron-header {
+        padding: 0.5rem 2rem;
+        margin-bottom: 1.2rem;;
+    }
+
+}
+article{
+    padding:15px 0;
+}
+footer{
+    margin-top:15px;
+    margin-bottom:0px;
+}
+footer .jumbotron{
+    margin-bottom:0px;
+}
+.pd-15{ padding-top:15px; }
+.npdr{ padding-right:0px; }
+@media screen and (max-width: 767px){
+    .attr_product{
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
+.carousel-indicators .active{
+    background-color: #6792ff;
+}
+#navbar-menu{
+    background-color:#1d71ab !important;
+}
+#navbar-menu li a{
+    color:#fff !important;
+}
+.navbar-light .navbar-brand{ color:#fff;}
+.jumbotron-header{
+    background-color:#189eff;
+    color:#fff;
+    border-radius: unset;
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1300px;
+    }
+}
+.left_menu_primary{
+    display: none;
+    position: absolute;
+    top:20px;
+    width: 100%;
+    z-index: 100000;
+}
+.left_menu_hover:hover ul.left_menu_primary {
+    display:block !important;
+}
+#menu-left{
+    border:1px solid #eee;
+    border-radius: unset;
+    height:386px;
+    color:#444;
+    background:#fff;
+}
+#menu-left a{
+    color:#444;
+    line-height: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#menu-left li:hover{
+    background-color:#189eff;
+}
+#menu-left li:hover a{
+    color:#fff;
+    font-weight:bold;
+}
+#menu-left ul.sub-menu li a{
+    color:#444;
+}
+#menu-left ul.sub-menu li:hover{
+    background-color:unset;
+}
+#menu-left ul.sub-menu li:hover a{
+    color:#189eff !important;
+}
+#menu-left ul.sub-menu li ul.sub-menu li a{
+    color:#444 !important;
+}
+#menu-left ul.sub-menu li ul.sub-menu li:hover a{
+    color:#189eff !important;
+}
+#menu-left ul.sub-menu{
+    position: absolute;
+    left: 95%;
+    top:0px;
+    width: 976px;
+    height:100%;
+    z-index: 10;
+    background: #fff;
+    padding-top:0px;
+    display:none;
+}
+
+#menu-left ul.sub-menu li{
+    float:left;
+    width:33%;
+    list-style-type: none;
+}
+#menu-left li:hover ul.sub-menu{
+    display:block;
+}
+#menu-left ul.sub-menu li a{
+    font-weight:bold;
+}
+#menu-left ul.sub-menu li ul.sub-menu{
+    position: static;
+    background:unset;
+    width:100%;
+    padding:0;
+    height:125px;
+}
+#menu-left ul.sub-menu li ul.sub-menu li{
+    float:none;
+    overflow: auto;
+    width: 100%;
+}
+#menu-left ul.sub-menu li ul.sub-menu li a{
+    font-weight: 400;
+}
+main{
+    padding:15px 0;
+}
+.slider_item{
+    padding-bottom:15px;
+}
+.categories_item{
+    padding-bottom:15px;
+}
+.home_products{
+    margin-bottom:15px;
+}
+
+@media (min-width: 1200px){
+    .home_products .item{
+        max-width: 20%;
+    }
+}
+.title_home{
+    font-size:18px;
+    text-transform: uppercase;
+}
+.slider_item{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.products .item{
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    /*border:0.1px solid #fff;*/
+}
+.products .item a{
+    color:#000;
+}
+.products .item a:hover{
+    text-decoration: none;
+}
+.products .item:hover {
+    /*border:0.1px solid #eee;*/
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.products .item h3{
+    font-size:16px;
+    font-weight:bold;
+}
+.products .item .price{
+    color:red;
+}
+.dmsp a{
+    color:#fff;
+    text-decoration: none;
+}
+.dmsp h2{
+    font-size:16px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.button_search{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.search_header form{
+    padding-top:20px;
+}
+.icon_header{
+    margin-top:-5px;
+    text-align: right;
+}
+.icon_header span{
+    font-size:15px;
+}
+.hotline_header a{
+    color: gold;
+    font-size: 3em;
+    font-weight: bold;
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.arrow_menu{ float:right; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color:unset;
+    border-color:#333;
+}
+.nav-pills .nav-link.active img{
+    border:1px solid #333;
+}
+.sidebar .title{
+    font-size: 14px;
+    font-weight:bold;
+}
+.sidebar .attr_item{
+    padding:15px 0;
+}
+
+/* Customize the label (the container) */
+.cb_filter {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.cb_filter input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.cb_filter:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cb_filter input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.cb_filter input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.cb_filter .checkmark:after {
+    left: 10px;
+    top: 5px;
+    width: 7px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.product_content{
+    overflow: hidden;
+}
+.product_content {
+    max-height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.product_content p{
+    line-height: 25px;
+    font-size:14px;
+    text-align: justify;
+}
+.product_content .read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0; padding: 30px 0;
+
+    /* "transparent" only works here because == rgba(0,0,0,0) */
+    background-image: linear-gradient(to bottom, transparent, #d4d4d4);
+}
+.single_product h1{
+    font-size: 24px;
+    font-weight: 300;
+    color: #333;
+    line-height: 30px;
+    margin: 16px 0 5px;
+}
+.single_product .info h3{
+    font-size:1.5em;
+    font-weight:bold;
+}
+.single_product p.price{
+    color: #ff3425;
+    font-size: 19px;
+    font-weight: bold;
+}
+.single_product p.description{
+    padding: 0 0 0 20px;
+    margin: 0 0 5px;
+    font-size: 13px;
+    position: relative
+}
+.archive_product .products {
+    padding-left:0px;
+}
+.other_products{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+
+/* Create a custom radio button */
+.checkmark2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.cb_filter:hover input ~ .checkmark2 {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.cb_filter input:checked ~ .checkmark2 {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.cb_filter input:checked ~ .checkmark2:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.cb_filter .checkmark2:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}

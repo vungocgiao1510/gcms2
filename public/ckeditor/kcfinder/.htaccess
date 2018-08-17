@@ -1,0 +1,6 @@
+<IfModule mod_php5.c>
+    php_value session.gc_maxlifetime 1800
+    php_value session.save_path /path/to/session/files
+    php_value session.cookie_domain .mysite.com
+    php_value session.cookie_path /my/path
+</IfModule>

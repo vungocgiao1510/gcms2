@@ -1,0 +1,8 @@
+body{
+    font-size: 12px;
+    background-color:#5d7a8c;
+}
+form .form-control, form .btn {
+    font-size: 12px;
+    border-radius: unset;
+}
